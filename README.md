@@ -70,8 +70,8 @@ curl output for NameB<br>
 ## Installation
 To use Paralix CLI, you need to have Go installed on your system. If you don't have Go installed, you can download it from the official Go website.
 
-Once you have Go installed, you can install Paralix CLI using the following command:
-`go get github.com/your_username/paralix`
+Once you have Go installed, you can install Paralix CLI using the following command:<br>
+`go get github.com/tamirdavid/paralix`
 
 
 ## Contributing
