@@ -8,11 +8,12 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
-	"paralix/lib/logger"
-	osutils "paralix/lib/osUtils"
-	paralixutils "paralix/lib/paralixUtils"
 	"path/filepath"
 	"strings"
+
+	"github.com/tamirdavid/paralix/lib/logger"
+	osutils "github.com/tamirdavid/paralix/lib/osUtils"
+	paralixutils "github.com/tamirdavid/paralix/lib/paralixUtils"
 
 	"github.com/spf13/cobra"
 )

@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"paralix/lib/logger"
 	"path/filepath"
+
+	"github.com/tamirdavid/paralix/lib/logger"
 )
 
 func RemoveDirectory(dirPath string) error {

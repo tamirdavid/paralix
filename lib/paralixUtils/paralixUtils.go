@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
-	"paralix/lib/logger"
 	"regexp"
 	"sort"
 	"strings"
+
+	"github.com/tamirdavid/paralix/lib/logger"
 )
 
 func CheckAllSubstringsExists(substrings []string, str string) bool {
