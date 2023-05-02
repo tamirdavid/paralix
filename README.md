@@ -18,7 +18,7 @@ Here are the flags available for the `command` command:
 
 - `--inputfile`, `-f`: A string flag that takes a file path that contains the inputs to run. Each input should be on a new line. These inputs will replace the placeholders in the command provided by the `-e` flag.<br> Example: `-f 'WHAT_SHOULD_ECHO'`.
 
-- `--output`, `-o`: A string flag that takes a file path to write the output of the command. If not provided, the output will be printed to the terminal. <br>
+- `--output`, `-o`: A string flag that takes a file path to write the output of the command. <br>
 The output will be written in the following format: <br>
 PlaceholderA<br>
 Output of command with PlaceholderA<br><br>
